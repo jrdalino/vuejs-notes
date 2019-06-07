@@ -118,22 +118,6 @@ $ docker run -d -p 8080:80 my-app
 $ curl localhost:8080
 ```
 
-### Deploy to Amazon S3
-- Install Plugin
-```
-$ yarn add vue-cli-plugin-s3-deploy
-```
-
-- Invoke Plugin. Answer the configuration prompts. This will inject a deploy script command into your package.json file.
-```
-vue invoke s3-deploy
-```
-
-- Deploy your app
-```
-$ yarn deploy
-```
-
 ### FAQ
 - What is Webpack? Javascript module bundler
 - What is Babel? Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments
