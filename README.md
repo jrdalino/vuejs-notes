@@ -42,9 +42,9 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Lints and fixes files
 ```
-npm run build
+npm run lint
 ```
 
 ### Run your tests
@@ -52,9 +52,9 @@ npm run build
 npm run test
 ```
 
-### Lints and fixes files
+### Compiles and minifies for production
 ```
-npm run lint
+npm run build
 ```
 
 ### Deploy (Docker and Nginx)
