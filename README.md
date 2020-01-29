@@ -1,4 +1,4 @@
-# vuejs
+# vuejs-notes
 
 ## Installation
 ```
